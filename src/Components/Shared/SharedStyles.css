@@ -1,0 +1,271 @@
+.shared-header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.shared-footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.shared-header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 40px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.header-title {
+    font-size: 32px; 
+    font-weight: 600; 
+    margin: 0; 
+}
+
+nav {
+    
+}
+
+.nav-links {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 20px; 
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: 500; 
+    transition: color 0.3s ease; 
+}
+
+.nav-links li a:hover {
+    color: #4CAF50; 
+}
+
+body {
+    padding-top: 80px; 
+}
+
+@media (max-width: 768px) {
+    .shared-header {
+        flex-direction: column; 
+        align-items: flex-start; 
+        text-align: left; 
+    }
+
+    .nav-links {
+        flex-direction: column; 
+        gap: 10px; 
+        margin-top: 15px; 
+    }
+
+    .header-title {
+        font-size: 28px; 
+    }
+
+    .nav-links li a {
+        font-size: 14px; 
+    }
+}
+
+.shared-footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-size: 14px;  
+    margin-top: 40px; 
+}
+
+.shared-footer p {
+    margin: 0; 
+    font-weight: 400; 
+}
+
+@media (max-width: 768px) {
+    .shared-footer {
+        font-size: 12px; 
+        padding: 15px 0; 
+    }
+}
+.shared-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    width: 50px;  
+    height: auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .shared-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.shared-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.shared-header h1 {
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-links li a:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .shared-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
